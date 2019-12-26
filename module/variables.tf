@@ -8,15 +8,15 @@ variable "cidr_block" {
 variable "env" {
   default = "dev"
 }
-/*
+
 ##sg 
 variable "vpc_security_group_ids" {
-    default = "sg-d399afa6" #default SG 
+    default = "sg-0de690b2dd19af474" #sec group created for created VPC
 }
 
 #subnet
 variable "subnet_id" {
-    default = 
+    default = "subnet-0d10f60551aed4327" #created subnet ID
 }
-*/
+
 
