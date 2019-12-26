@@ -11,4 +11,5 @@ variable "env" {
 
 ##sg 
 variable "vpc_security_group_ids" {
+    default = "sg-d399afa6" #default SG 
 }
