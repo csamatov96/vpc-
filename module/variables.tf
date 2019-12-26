@@ -16,6 +16,6 @@ variable "vpc_security_group_ids" {
 
 #subnet
 variable "subnet_id" {
-    default = var.subnet_id
+    default = 
 }
 
