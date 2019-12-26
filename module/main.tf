@@ -1,7 +1,7 @@
 # main.tf inside <environment> folder
 module "example_vpc" {
   source     = "/root/vpc-/module/vpc"
-  env        = var.env
+  #env        = var.env
   subnet     = "10.0.0.0/24"
   cidr_block = "10.0.0.0/16"
 }
@@ -12,5 +12,5 @@ provider "aws" {
   region     = "eu-west-1"
 #  access_key = var.aws_access_key
 #  secret_key = var.aws_secret_key
-  alias      = "frankfurt"
+#  alias      = "frankfurt"
 }
