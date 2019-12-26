@@ -8,3 +8,7 @@ variable "cidr_block" {
 variable "env" {
   default = "dev"
 }
+
+##sg 
+variable "vpc_security_group_ids" {
+}
