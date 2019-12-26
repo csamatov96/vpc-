@@ -13,3 +13,9 @@ variable "env" {
 variable "vpc_security_group_ids" {
     default = "sg-d399afa6" #default SG 
 }
+
+#subnet
+variable "subnet_id" {
+    default = var.subnet_id
+}
+
